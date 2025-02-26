@@ -2,9 +2,20 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+// Agrega CORS a los servicios
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("MyAllowSpecificOrigins", policy =>
+    {
+        policy.WithOrigins("*")
+               .AllowAnyHeader()
+               .WithMethods("*")
+               .AllowAnyMethod();
+    });
+});
 
 var app = builder.Build();
-
+app.UseCors("MyAllowSpecificOrigins");
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
