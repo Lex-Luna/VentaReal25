@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { ApiclienteService } from '../../app/service/apicliente.service';
 
 @Component({
   selector: 'app-cliente',
@@ -8,6 +9,14 @@ import { MatSidenavModule } from '@angular/material/sidenav';
   styleUrl: './cliente.component.scss'
   
 })
-export class ClienteComponent {
 
+export class ClienteComponent {
+  constructor(
+    //aqui vinculamos con el apiCliente
+    private apicliente: ApiclienteService
+  ){
+    apicliente.getClientes().subscribe(respuesta =>{
+      console.log(respuesta)
+    })
+  }
 }

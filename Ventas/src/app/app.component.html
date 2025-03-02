@@ -2,7 +2,7 @@
 <mat-drawer-container>
   <mat-drawer #drawer mode="side">
       <a [routerLink]='["/home"]'>Inicio</a> <br>
-      <a >Cliente</a>
+      <a [routerLink]='["/cliente"]'>Cliente</a>
   </mat-drawer>
   <div>
   <button (click)="drawer.toggle()">Mostrar/Ocultar </button>
