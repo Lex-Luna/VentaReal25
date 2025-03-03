@@ -21,7 +21,9 @@ export class ApiclienteService {
     private http: HttpClient
   ) { }
 
-  
+  /* ngOnInit(): void{
+    this.getClientes
+  } */
   getClientes(): Observable<Respuesta> {
     return this._http.get<Respuesta>(this.url);
     //console.log(respuesta);
