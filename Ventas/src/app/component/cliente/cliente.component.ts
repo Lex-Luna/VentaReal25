@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { MatSidenavModule } from '@angular/material/sidenav';
-import { ApiclienteService } from '../../app/service/apicliente.service';
+import { ApiclienteService } from '../../service/apicliente.service';
 import { MatTableModule } from '@angular/material/table';
 
 @Component({
@@ -11,7 +11,7 @@ import { MatTableModule } from '@angular/material/table';
   templateUrl: './cliente.component.html',
   styleUrl: './cliente.component.scss'
   
-})
+}) 
 
 export class ClienteComponent {
   
