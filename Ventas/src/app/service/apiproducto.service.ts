@@ -20,7 +20,7 @@ export class ApiproductoService {
     private http: HttpClient
   ) { }
   /* Solicitud Get desde el el servicio */
-  getClientes(): Observable<Respuesta> {
+  getProducto(): Observable<Respuesta> {
     return this._http.get<Respuesta>(this.url);
     //console.log(respuesta);
   }
