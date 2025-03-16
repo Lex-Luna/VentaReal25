@@ -19,7 +19,7 @@ namespace WS0._1Venta.Controllers
                 Respuesta objres = new Respuesta();
                 try
                 {
-                    var lst = bd.Productos.ToList();
+                    var lst = bd.Productos.OrderByDescending(d => d.Id).ToList();
                     objres.Exito = 1;
                     objres.Mensaje = "Conexion get exitosa";
                     objres.Data = lst;

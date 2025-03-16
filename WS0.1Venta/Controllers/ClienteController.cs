@@ -21,7 +21,8 @@ namespace WS0._1Venta.Controllers
                     Respuesta objres = new Respuesta();
                 try
                 {
-                    var lst = bd.Clientes.ToList();
+                    //usamos el orderv desde aqui para mostrarlos de ultimos a rimeros
+                    var lst = bd.Clientes.OrderByDescending(d=>d.Id).ToList();
                     objres.Exito = 1;
                     objres.Mensaje="Conexion get exitosa";
                     objres.Data = lst;

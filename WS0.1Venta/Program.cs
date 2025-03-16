@@ -9,7 +9,7 @@ builder.Services.AddCors(options =>
     {
         policy.WithOrigins("*")
                .AllowAnyHeader()
-               .WithMethods("*")
+               .WithMethods("*")//para qe acepto todos los heade esto ayuda a usar los post
                .AllowAnyMethod();
     });
 });
