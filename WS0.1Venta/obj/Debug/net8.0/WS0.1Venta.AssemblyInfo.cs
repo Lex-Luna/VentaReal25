@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WS0.1Venta")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab6d6f6e9c5ae98dba4fb62188c4e3b861031592")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3274858afc76d6dd3118d74b2df1f878c73974fb")]
 [assembly: System.Reflection.AssemblyProductAttribute("WS0.1Venta")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WS0.1Venta")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
