@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ApiproductoService } from '../../service/apiproducto.service';
+import { ApiproductoService } from '../../service/apiProducto/apiproducto.service';
 import { MatTableModule } from '@angular/material/table';
 import { MatSidenavModule } from '@angular/material/sidenav';
 

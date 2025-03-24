@@ -15,7 +15,7 @@ const httpOption = {
 })
 
 export class ApiclienteService {
-  
+  /* TODO: como saber si se esta consumiendo la url? */
   private url: string = "http://localhost:5277/api/cliente";
   private _http = inject(HttpClient);
   constructor(

@@ -2,7 +2,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { inject, Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Respuesta } from '../../modesl/respuesta';
-//TODO DONDE ESTA ESTE API PRODUCTO
+
 
 const httpOption = {
   headers: new HttpHeaders({

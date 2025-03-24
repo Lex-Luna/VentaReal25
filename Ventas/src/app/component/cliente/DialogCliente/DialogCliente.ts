@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { MatDialogRef } from '@angular/material/dialog';
-import { ApiclienteService } from '../../../service/apicliente.service';
+import { ApiclienteService } from '../../../service/apiCliente/apicliente.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { Cliente } from '../../../modesl/cliente';
 import { MatFormFieldModule } from '@angular/material/form-field';

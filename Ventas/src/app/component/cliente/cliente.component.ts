@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { MatSidenavModule } from '@angular/material/sidenav';
-import { ApiclienteService } from '../../service/apicliente.service';
+import { ApiclienteService } from '../../service/apiCliente/apicliente.service';
 import { MatTableModule } from '@angular/material/table';
 import { MatDialog, MatDialogActions, MatDialogModule, MatDialogRef } from '@angular/material/dialog';
 import { MatButtonModule } from '@angular/material/button';
