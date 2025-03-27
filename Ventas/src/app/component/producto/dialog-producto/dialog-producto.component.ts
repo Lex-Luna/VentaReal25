@@ -21,8 +21,8 @@ import { ApiproductoService } from '../../../service/apiProducto/apiproducto.ser
 export class DialogProductoComponent {
   /* VARIABLES */
   public nombre!: string;
-  public PrecioUnitario!: string;
-  public Costo!: string;
+  public precioUnitario!: string;
+  public costo!: string;
 
   /* FIN VARIABLES */
   /* CONSTRUCTOR */
@@ -42,8 +42,8 @@ close(){
 addProducto() {
   const producto: Producto = { 
     nombre: this.nombre,
-    PrecioUnitario: this.PrecioUnitario,
-    Costo: this.Costo
+    precioUnitario: this.precioUnitario,
+    costo: this.costo
   };
   this.apiProducto.add(producto).subscribe(respuesta => {
     if(respuesta.exito === 1) {

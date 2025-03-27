@@ -18,12 +18,21 @@
             <th mat-header-cell *matHeaderCellDef>nombre</th>
             <td mat-cell *matCellDef="let element">{{element.nombre}}</td>
         </ng-container>
+        <!-- DESDE AQUI -->
+        <ng-container matColumnDef="precioUnitario">
+            <th mat-header-cell *matHeaderCellDef>precioUnitario</th>
+            <td mat-cell *matCellDef="let element">{{element.precioUnitario}}</td>
+        </ng-container>
+        <ng-container matColumnDef="costo">
+            <th mat-header-cell *matHeaderCellDef>costo</th>
+            <td mat-cell *matCellDef="let element">{{element.costo}}</td>
+        </ng-container>
         <tr mat-header-row *matHeaderRowDef="columnas"></tr>
         <tr mat-row *matRowDef="let row; columns: columnas"></tr>
     </table>
 </div>
  
-<p>cliente works!</p>
+<p>Producto works!</p>
 <!-- <div *ngFor= "let element of lst">
     element.nombre
 

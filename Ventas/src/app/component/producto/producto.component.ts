@@ -26,7 +26,7 @@ import { Dialog } from '@angular/cdk/dialog';
 })
 export class ProductoComponent {
   public lst: any[] = [];//es solo para incializarlo
-  public columnas: string[] = ["id", "nombre"];
+  public columnas: string[] = ["id", "nombre","precioUnitario","costo"];
   constructor(
     private apiProducto: ApiproductoService,
     public dialog: MatDialog
