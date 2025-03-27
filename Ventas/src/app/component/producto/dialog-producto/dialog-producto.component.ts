@@ -17,10 +17,12 @@ import { ApiproductoService } from '../../../service/apiProducto/apiproducto.ser
   templateUrl: './dialog-producto.component.html',
   styleUrl: './dialog-producto.component.scss'
 })
-/* TODO hacer formulario para ingresar nuevo poducto */
+
 export class DialogProductoComponent {
   /* VARIABLES */
-  public nombre! : string;
+  public nombre!: string;
+  public PrecioUnitario!: string;
+  public Costo!: string;
 
   /* FIN VARIABLES */
   /* CONSTRUCTOR */
@@ -36,7 +38,22 @@ export class DialogProductoComponent {
 close(){
   this.dialogRef.close();
 }
-  
+
+addProducto() {
+  const producto: Producto = { 
+    nombre: this.nombre,
+    PrecioUnitario: this.PrecioUnitario,
+    Costo: this.Costo
+  };
+  this.apiProducto.add(producto).subscribe(respuesta => {
+    if(respuesta.exito === 1) {
+      this.dialogRef.close();
+      this.snackbar.open("Producto insertado con éxito", "", {
+        duration: 2000
+      });
+    }
+  });
+}
 
 /* FIN FUNCIONES */
 

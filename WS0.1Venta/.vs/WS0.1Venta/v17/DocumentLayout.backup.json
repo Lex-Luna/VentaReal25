@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo Legion\\source\\repos\\Venta25\\WS0.1Venta\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A4087899-B793-4A5B-A0E3-ECB0C29BAFBE}|WS0.1Venta.csproj|c:\\users\\lenovo legion\\source\\repos\\venta25\\ws0.1venta\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4087899-B793-4A5B-A0E3-ECB0C29BAFBE}|WS0.1Venta.csproj|solutionrelative:models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A4087899-B793-4A5B-A0E3-ECB0C29BAFBE}|WS0.1Venta.csproj|c:\\users\\lenovo legion\\source\\repos\\venta25\\ws0.1venta\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4087899-B793-4A5B-A0E3-ECB0C29BAFBE}|WS0.1Venta.csproj|solutionrelative:controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,6 +35,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo Legion\\source\\repos\\Venta25\\WS0.1Venta\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\Lenovo Legion\\source\\repos\\Venta25\\WS0.1Venta\\Models\\Producto.cs",
+              "RelativeToolTip": "Models\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T21:27:42.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ProductoController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo Legion\\source\\repos\\Venta25\\WS0.1Venta\\Controllers\\ProductoController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductoController.cs",
@@ -43,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo Legion\\source\\repos\\Venta25\\WS0.1Venta\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -55,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ClienteController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo Legion\\source\\repos\\Venta25\\WS0.1Venta\\Controllers\\ClienteController.cs",
               "RelativeDocumentMoniker": "Controllers\\ClienteController.cs",
